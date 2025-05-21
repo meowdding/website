@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meowdding</title>
+</head>
+<body>
+  <h1>Meow</h1>
+  <img id="cat" src="cats/cat.jpg"  alt="Cat"/>
+  <a href="https://github.com/meowdding">GitHub</a>
+</body>
+<style>
+  html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    height: 50%;
+  }
+</style>
+<script>
+  const cats = [
+      "cat.jpg",
+      "not-cookie.png",
+  ]
+
+  function random() {
+    const cat = document.getElementById("cat");
+    const randomIndex = Math.floor(Math.random() * cats.length);
+    cat.src = `cats/${cats[randomIndex]}`;
+  }
+
+  random();
+</script>
+</html>
