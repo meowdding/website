@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+  if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.classList.add('dark');
+  if (localStorage.getItem('dark') === 'true') document.documentElement.classList.add('dark');
+
   const cats = [
     'concreate.png',
     'concreate1.jpg',
@@ -27,7 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const catElement = document.getElementById('cat-image');
-  if (!catElement) return console.warn('Cat Element is missing');
-  const randomIndex = Math.floor(Math.random() * cats.length);
-  catElement.src = `cats/${cats[randomIndex]}`;
+  if (catElement) {
+    const randomIndex = Math.floor(Math.random() * cats.length);
+    catElement.src = `public/${cats[randomIndex]}`;
+  } else {
+    console.warn('Cat Element is missing');
+  }
+
+  document.getElementById('toggle').addEventListener('click', () => {
+    document.documentElement.classList.toggle('dark');
+    localStorage.setItem('dark', document.documentElement.classList.contains('dark'));
+  });
 });
