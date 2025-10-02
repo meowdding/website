@@ -2,7 +2,7 @@
 
 # Contrib
 
-If you have questions, join our [Discord](https://meowdd.ing/discord) and ping @.kathund.
+If you have questions, join our [Discord](https://meowdd.ing/discord) and ping `@.kathund`
 
 ## Requirements for deving
 
