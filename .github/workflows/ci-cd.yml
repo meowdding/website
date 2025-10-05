@@ -49,3 +49,33 @@ jobs:
 
       - name: Check prettier
         run: pnpm prettier:check
+
+  tailwind:
+    name: check building (tailwind)
+    needs: [pnpm]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'pnpm'
+
+      - name: Install node dependencies
+        run: pnpm i
+
+      - name: Run tailwind
+        run: pnpm tailwind
+
+      - name: Check tailwind
+        run: |
+          if ! git diff --exit-code --quiet -- output.css; then
+            echo "Tailwind isn't up to date. Please run 'pnpm tailwind'"
+            exit 1
+          fi
