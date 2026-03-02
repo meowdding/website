@@ -1,6 +1,8 @@
 name: 'Modrinth'
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   pnpm:
