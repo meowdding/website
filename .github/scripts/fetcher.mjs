@@ -21,6 +21,7 @@ function fetchAll(start, max) {
         projects[project.project_id] = {
           slug: project.slug,
           title: project.title,
+          description: project.description,
           icon: project.icon_url,
           latest_version: project.latest_version,
           downloads: project.downloads
