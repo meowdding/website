@@ -2,41 +2,47 @@
   "khMbd0K1": {
     "slug": "furfsky-reborn",
     "title": "FurSky Reborn",
+    "description": "Hypixel Skyblock's most popular resource pack. Now available for 1.21.11!",
     "icon": "https://cdn.modrinth.com/data/khMbd0K1/f83737b37df9bfb92e3ce036bab0462c02df4c71.png",
     "latest_version": "PBwsFNuf",
-    "downloads": 2730106
+    "downloads": 2732271
   },
   "BZeL572c": {
     "slug": "packshq",
     "title": "PacksHQ",
+    "description": "Hypixel Skyblock's oldest texture pack! Ported into 1.21 (requires Catharsis)",
     "icon": "https://cdn.modrinth.com/data/BZeL572c/fd740be94e75ee871298c41448f05baf77a2ce9e_96.webp",
     "latest_version": "7eBYdsF8",
-    "downloads": 55698
+    "downloads": 56579
   },
   "Z3mvPSZb": {
     "slug": "hypixel-skyblock-enchanted-books",
     "title": "night's Hypixel SkyBlock Enchanted Books",
+    "description": "Custom textures for the various Enchanted Books and Book Modifiers that exist within Hypixel SkyBlock.",
     "icon": "https://cdn.modrinth.com/data/Z3mvPSZb/71ed0116fee8b385ba2fe092c2c8bd10c5cc1685_96.webp",
     "latest_version": "wzAE0jIs",
-    "downloads": 3229
+    "downloads": 3236
   },
   "LKOkIBMw": {
     "slug": "hyware",
     "title": "Hyware",
+    "description": "A Vanilla Style Hypixel Skyblock texture pack!",
     "icon": "https://cdn.modrinth.com/data/LKOkIBMw/8940a1dacd007d5defa7438598f9ccbef03423f8.png",
     "latest_version": "3LgNtLpA",
-    "downloads": 1355
+    "downloads": 1356
   },
   "jeB7fCf8": {
     "slug": "nulls-reborn-catharsis",
     "title": "nulls-reborn-catharsis",
+    "description": "Port of the nulls-reborn-dv Hypixel Skyblock resource pack for 1.21.11 Catharsis",
     "icon": "https://cdn.modrinth.com/data/jeB7fCf8/2ac44efdd37aca4ee261bad651297c5d074a8ee6.png",
     "latest_version": "YNGvJ2HM",
-    "downloads": 127
+    "downloads": 129
   },
   "9ZySD1Nd": {
     "slug": "shys-head-overlay",
     "title": "Shy's Head Overlay",
+    "description": "For Hypixel Skyblock\nMakes helmets, equipment, talismans, and more transparent in ways that just make sense (REQUIRES Catharsis to work)",
     "icon": "https://cdn.modrinth.com/data/9ZySD1Nd/ba65b3b59b8c404b13a9727562d741a478f4ebb6_96.webp",
     "latest_version": "LlBmbwIb",
     "downloads": 87
