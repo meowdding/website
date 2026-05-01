@@ -1,0 +1,76 @@
+#pack-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.pack-entry {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--header);
+  border: 2px solid rgb(from var(--primary) calc(r * 0.3) calc(g * 0.3) calc(b * 0.3));
+  border-radius: 1rem;
+  padding: 16px;
+  gap: 20px;
+  transition: transform 0.2s ease;
+  text-decoration: none;
+}
+
+.pack-entry:hover {
+  transform: scale(1.01);
+}
+
+.pack-icon {
+  width: 84px;
+  height: 84px;
+  border-radius: 0.5rem;
+  image-rendering: pixelated;
+  border: 2px solid var(--secondary);
+  background-color: var(--background);
+}
+
+.pack-info {
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.pack-info h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--text);
+}
+
+.pack-info p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  color: var(--text);
+  opacity: 0.8;
+  line-height: 1.4;
+}
+
+.download-count {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.pack-download {
+  width: auto !important;
+  max-width: 150px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  text-decoration: none !important;
+  align-self: flex-start;
+  margin-top: 10px;
+}
