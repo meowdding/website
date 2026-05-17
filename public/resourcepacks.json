@@ -5,7 +5,7 @@
     "description": "Hypixel Skyblock's most popular resource pack. Now available for 1.21.11!",
     "icon": "https://cdn.modrinth.com/data/khMbd0K1/f83737b37df9bfb92e3ce036bab0462c02df4c71.png",
     "latest_version": "PBwsFNuf",
-    "downloads": 2809822
+    "downloads": 2816222
   },
   "BZeL572c": {
     "slug": "packshq",
@@ -13,7 +13,7 @@
     "description": "Hypixel Skyblock's oldest texture pack! Ported into 1.21 (requires Catharsis)",
     "icon": "https://cdn.modrinth.com/data/BZeL572c/fd740be94e75ee871298c41448f05baf77a2ce9e_96.webp",
     "latest_version": "7eBYdsF8",
-    "downloads": 92502
+    "downloads": 95428
   },
   "Z3mvPSZb": {
     "slug": "hypixel-skyblock-enchanted-books",
@@ -21,7 +21,7 @@
     "description": "Custom textures for the various Enchanted Books and Book Modifiers that exist within Hypixel SkyBlock.",
     "icon": "https://cdn.modrinth.com/data/Z3mvPSZb/71ed0116fee8b385ba2fe092c2c8bd10c5cc1685_96.webp",
     "latest_version": "wzAE0jIs",
-    "downloads": 3411
+    "downloads": 3429
   },
   "LKOkIBMw": {
     "slug": "hyware",
@@ -29,7 +29,7 @@
     "description": "A Vanilla Style Hypixel Skyblock texture pack!",
     "icon": "https://cdn.modrinth.com/data/LKOkIBMw/8940a1dacd007d5defa7438598f9ccbef03423f8.png",
     "latest_version": "3LgNtLpA",
-    "downloads": 1428
+    "downloads": 1439
   },
   "jeB7fCf8": {
     "slug": "nulls-reborn-catharsis",
@@ -37,7 +37,7 @@
     "description": "Port of the nulls-reborn-dv Hypixel Skyblock resource pack for 1.21.11 Catharsis",
     "icon": "https://cdn.modrinth.com/data/jeB7fCf8/2ac44efdd37aca4ee261bad651297c5d074a8ee6.png",
     "latest_version": "YNGvJ2HM",
-    "downloads": 223
+    "downloads": 229
   },
   "fPwyYO5g": {
     "slug": "furf-addon",
@@ -45,7 +45,7 @@
     "description": "An unofficial Addon/Overlay to FurfSky-Reborn that adds old textures and improves bugs.\n \n(Based on the new beta version)",
     "icon": "https://cdn.modrinth.com/data/fPwyYO5g/8e493ded38be543afe502c3928e2a47c78317195.png",
     "latest_version": "y3Ke85KQ",
-    "downloads": 109
+    "downloads": 117
   },
   "9ZySD1Nd": {
     "slug": "shys-head-overlay",
@@ -61,6 +61,6 @@
     "description": "NotEnoughUpdates' Fancy Panes in Modern Hypixel SkyBlock",
     "icon": "https://cdn.modrinth.com/data/kBgkqWrj/49264eb89b381d07da5e6d6a474951a2f48630da.png",
     "latest_version": "FEH4auxg",
-    "downloads": 7
+    "downloads": 8
   }
 }
