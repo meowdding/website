@@ -25,8 +25,10 @@ function fetchAll(start, max) {
           icon: project.icon_url,
           latest_version: project.latest_version,
           downloads: project.downloads,
-          creator: project.organization ?? project.author,
-          creator_id: project.organization_id ?? project.author_id,
+          organization: project.organization,
+          organization_id: project.organization_id,
+          author: project.author,
+          author_id: project.author_id,
         };
       });
       return data;
