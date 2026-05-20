@@ -17,9 +17,27 @@ document.addEventListener("DOMContentLoaded", () => {
       const info = document.createElement("div");
       info.classList.add("pack-info");
 
+      const titleContainer = document.createElement("div");
+      titleContainer.classList.add("pack-title-container");
+
       const name = document.createElement("h3");
       name.textContent = pack.title;
-      info.appendChild(name);
+      titleContainer.appendChild(name);
+
+      const creatorName = pack.organization || pack.author;
+      const creatorId = pack.organization_id || pack.author_id
+      if (creatorName && creatorId) {
+        const creatorType = pack.organization ? "organization" : "user";
+        const creatorLink = document.createElement("a");
+        creatorLink.href = `https://modrinth.com/${creatorType}/${creatorId}`;
+        creatorLink.textContent = `by ${creatorName}${nameSuffix[creatorName] ?? ""}`;
+        creatorLink.target = "_blank";
+        creatorLink.classList.add("pack-creator");
+
+        titleContainer.appendChild(creatorLink);
+      }
+
+      info.appendChild(titleContainer);
 
       const description = document.createElement("p");
       description.textContent = pack.description;
@@ -42,6 +60,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+const nameSuffix = {
+  "Meowdding": "🐈",
+}
 
 async function getPacks() {
   return fetch("/public/resourcepacks.json").then(response => response.json());

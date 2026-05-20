@@ -74,3 +74,23 @@
   align-self: flex-start;
   margin-top: 10px;
 }
+
+.pack-title-container {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pack-creator {
+  font-size: 0.85rem;
+  color: var(--text);
+  opacity: 0.6;
+  text-decoration: none;
+  transition: opacity 0.2s ease, text-decoration 0.2s ease;
+}
+
+.pack-creator:hover {
+  opacity: 0.9;
+  text-decoration: underline;
+}
