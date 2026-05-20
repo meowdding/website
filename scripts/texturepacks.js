@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const nameSuffix = {
   "Meowdding": "🐈",
+  "Helicoptero": "🚁",
 }
 
 async function getPacks() {
