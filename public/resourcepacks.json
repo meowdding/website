@@ -143,6 +143,18 @@
     "author": "shy0.",
     "author_id": "90d4rnds"
   },
+  "gaYXRULZ": {
+    "slug": "very-normal-blaze-pack",
+    "title": "very normal blaze pack",
+    "description": "Changes all aspects of enderman slayer to blaze slayer :)",
+    "icon": "https://cdn.modrinth.com/data/gaYXRULZ/5c59c69b0a9e15260899d55df7103dc1447a87cc_96.webp",
+    "latest_version": "mqt6b7xL",
+    "downloads": 122,
+    "organization": null,
+    "organization_id": null,
+    "author": "vyirv",
+    "author_id": "fQkrkTcr"
+  },
   "kBgkqWrj": {
     "slug": "fancy-panes",
     "title": "Hypixel SkyBlock Fancy Panes",
@@ -150,6 +162,18 @@
     "icon": "https://cdn.modrinth.com/data/kBgkqWrj/49264eb89b381d07da5e6d6a474951a2f48630da.png",
     "latest_version": "FEH4auxg",
     "downloads": 73,
+    "organization": "Meowdding",
+    "organization_id": "CGW8DHEi",
+    "author": "j10a1n15",
+    "author_id": "oMYvlwRE"
+  },
+  "AqwmOGrS": {
+    "slug": "eureka-pack",
+    "title": "Eureka",
+    "description": "A Minecraft Resource pack for Hypixel Skyblock with a strong focus on innovation.",
+    "icon": "https://cdn.modrinth.com/data/AqwmOGrS/662203f34026cfb216311331db9e365ed4add4de.png",
+    "latest_version": "IXgo37xE",
+    "downloads": 50,
     "organization": "Meowdding",
     "organization_id": "CGW8DHEi",
     "author": "j10a1n15",
