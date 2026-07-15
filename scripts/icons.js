@@ -64,6 +64,29 @@ const HARDCODED_NAMES = {
   // ICONS
 
   // MOBS
+  "\\ue070": "Airborne",
+  "\\ue071": "Animal",
+  "\\ue072": "Aquatic",
+  "\\ue073": "Arcane",
+  "\\ue074": "Arthropod",
+  "\\ue075": "Construct",
+  "\\ue076": "Cubic",
+  "\\ue077": "Elusive",
+  "\\ue078": "Ender",
+  "\\ue079": "Frozen",
+  "\\ue07a": "Glacial",
+  "\\ue07b": "Humanoid",
+  "\\ue07c": "Infernal",
+  "\\ue07d": "Magmatic",
+  "\\ue07e": "Mythological",
+  "\\ue07f": "Pest",
+  "\\ue080": "Shielded",
+  "\\ue081": "Skeletal",
+  "\\ue082": "Spooky",
+  "\\ue083": "Subterranean",
+  "\\ue084": "Undead",
+  "\\ue085": "Wither",
+  "\\ue086": "Woodland",
 
   // STAFF ICONS
   "\\u12de": "Hypixel Admins"
