@@ -10,10 +10,10 @@ const HARDCODED_NAMES = {
   "\\ue054": "Foraging",
   "\\ue055": "Enchanting",
   "\\ue056": "Alchemy",
-  "\\ue057": "Carpentry (Unsure)",
+  "\\ue057": "Carpentry",
   "\\ue058": "Runecrafting",
   "\\ue059": "Taming",
-  "\\ue05a": "Social (Unsure)",
+  "\\ue05a": "Social",
   "\\ue05b": "Hunting",
 
   // ICONS
