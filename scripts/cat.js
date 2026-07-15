@@ -23,7 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
     'philou1.png',
     'philou2.png',
     'philou3.png',
-    'philou4.png'
+    'philou4.png',
+    'willow1.jpg',
+    'willow2.jpg',
+    'willow3.jpg',
   ];
 
   const catElement = document.getElementById('cat-image');
