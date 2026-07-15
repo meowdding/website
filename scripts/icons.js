@@ -62,6 +62,15 @@ const HARDCODED_NAMES = {
   "\\ue05b": "Hunting",
 
   // ICONS
+  "\\ue060": "Left Arrow (Interpreted)",
+  "\\ue061": "Right Arrow (Interpreted)",
+  "\\ue062": "Up Arrow (Interpreted)",
+  "\\ue063": "Down Arrow (Interpreted)",
+  "\\u2714": "Checkmark (Interpreted)",
+  "\\u2716": "X (Interpreted)",
+  "\\ue066": "Toolbox",
+  "\\ue067": "Location",
+  "\\ue068": "Fragged Item",
 
   // MOBS
   "\\ue070": "Airborne",
