@@ -1,5 +1,27 @@
 const HARDCODED_NAMES = {
+  // STATS
   "\\ue000": "Health",
+
+  // SKILLS
+  "\\ue050": "Combat",
+  "\\ue051": "Farming",
+  "\\ue052": "Fishing",
+  "\\ue053": "Mining",
+  "\\ue054": "Foraging",
+  "\\ue055": "Carpentry (Unsure)",
+  "\\ue056": "Alchemy",
+  "\\ue057": "Foraging (Again??)",
+  "\\ue058": "Runecrafting",
+  "\\ue059": "Taming",
+  "\\ue05a": "Social (Unsure)",
+  "\\ue05b": "Hunting",
+
+  // ICONS
+
+  // MOBS
+
+  // STAFF ICONS
+  "\\u12de": "Hypixel Admins"
 };
 
 async function copyToClipboard(text, button) {
