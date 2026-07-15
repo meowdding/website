@@ -68,7 +68,7 @@ const HARDCODED_NAMES = {
   "\\ue063": "Down Arrow (Interpreted)",
   "\\u2714": "Checkmark (Interpreted)",
   "\\u2716": "X (Interpreted)",
-  "\\ue066": "Toolbox",
+  "\\ue066": "Lock (Interpreted)",
   "\\ue067": "Location",
   "\\ue068": "Fragged Item",
 
