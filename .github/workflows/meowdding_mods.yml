@@ -1,8 +1,8 @@
-name: 'Modrinth'
+name: 'Meowdding Mods'
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 1 * * *"
 
 jobs:
   pnpm:
@@ -21,7 +21,7 @@ jobs:
 
       - name: Run Script
         run: |
-          node .github/scripts/fetcher.mjs
+          node .github/scripts/meowdding_mods_fetcher.mjs
 
       - name: Commit and push
         continue-on-error: true
@@ -29,5 +29,5 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add .
-          git commit -m "Update Resourcepacks"
+          git commit -m "Update Meowdding Mods"
           git push
