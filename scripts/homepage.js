@@ -23,6 +23,12 @@ function cat() {
       ]
     },
     {
+      name: "Creature",
+      files: [
+        'creature.png'
+      ]
+    },
+    {
       name: "Cookie",
       files: [
         'cookie.png',
