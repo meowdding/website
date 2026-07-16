@@ -94,13 +94,6 @@ p.secondary {
   text-decoration: underline dotted;
 }
 
-#cat-image {
-  width: calc(25%);
-  height: auto;
-  border-radius: 1.5rem;
-  margin-top: auto;
-}
-
 .center {
   margin-top: auto;
   background-color: var(--header);

@@ -6,38 +6,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meowdding</title>
   <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/homepage.css" />
   <script src="scripts/meow.js"></script>
-  <script src="scripts/cat.js"></script>
+  <script src="scripts/homepage.js"></script>
 </head>
 
 <body>
-  <div class="header">
-    <p>Meowdding</p>
-    <div>
-      <a href="https://github.com/meowdding" style="margin-right: 10px;">
-        GitHub
-      </a>
-      <a href="https://modrinth.com/organization/meowdding">
-        Modrinth
-      </a>
-    </div>
+<div class="header">
+  <p>Meowdding</p>
+  <div>
+    <a href="https://github.com/meowdding" style="margin-right: 10px;">GitHub</a>
+    <a href="https://modrinth.com/organization/meowdding">Modrinth</a>
   </div>
-  <div class="content">
+</div>
 
+<div class="content">
+  <div id="leftColumn">
     <img id="cat-image" src="cats/cat.png" alt="Cat Image" />
     <div style="cursor:pointer" onclick="cat()">🐈‍⬛ <span id="cat-name"></span> 🐈</div>
-
-
-    <div class="footer">
-      <a href="https://github.com/meowdding/website" class="secondary">
-        Made with 🐈
-      </a>
-      <p id="toggle" class="secondary">
-        Toggle Dark Mode
-      </p>
-    </div>
-
   </div>
+
+  <div id="rightColumn">
+    <details open class="category" id="mods-category">
+      <summary class="category-name">Our cool mods</summary>
+    </details>
+
+    <details open class="category" id="packs-category">
+      <summary class="category-name">Our cool Resourcepacks</summary>
+    </details>
+
+    <details open class="category" id="sites-category">
+      <summary class="category-name">Miscellaneous Sites</summary>
+    </details>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="https://github.com/meowdding/website" class="secondary">
+    Made with 🐈
+  </a>
+  <p id="toggle" class="secondary">
+    Toggle Dark Mode
+  </p>
+</div>
+
 </body>
 
 </html>

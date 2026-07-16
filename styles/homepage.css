@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 120px);
+  overflow: hidden;
+}
+
+#leftColumn {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  gap: 1rem;
+}
+
+#cat-image {
+  width: calc(70%);
+  height: auto;
+  border-radius: 1.5rem;
+  margin-top: auto;
+}
+
+#rightColumn {
+  flex: 1;
+  overflow-y: auto;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.category {
+  background-color: var(--header);
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.category-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  list-style: none;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: rgba(128, 128, 128, 0.05);
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.2s;
+}
+
+.card-link:hover {
+  background: rgba(128, 128, 128, 0.1);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+  image-rendering: pixelated;
+  background: rgba(0, 0, 0, 0.1);
+
+  transform: translateZ(0); /* This somehow fixes the images flickering weird */
+}
+
+.card-title {
+  font-weight: bold;
+  color: var(--text);
+}
+
+.card-description {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
