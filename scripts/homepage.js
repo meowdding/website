@@ -84,9 +84,19 @@ function cat() {
 function projectList() {
   const sites = [
     {
+      title: "Catharsis Documentation",
+      description: "View the Documentation on how to create a Catharsis Texturepack.",
+      link: "https://catharsis.meowdd.ing/"
+    },
+    {
       title: 'Catharsis Texturepacks',
       description: 'A list of all Texturepacks created using Catharsis.',
       link: './texturepacks.html'
+    },
+    {
+      title: "Hypixel Pack Research Page",
+      description: "View the current (alpha) Official Hypixel Texturepack or compare it between versions.",
+      link: "https://mrrp.meowdd.ing/"
     },
     {
       title: 'Hypixel Pack Icons',
