@@ -1,5 +1,8 @@
 import fs from 'fs';
 
+// Maybe Some Day
+const currentlyDeadMods = ["hypixel-sky-block"]
+
 const projects = {
   mods: [],
   texturepacks: []
@@ -21,11 +24,14 @@ function fetchAll() {
       }
     }).then((data) => {
       data.forEach((project) => {
+        if (currentlyDeadMods.includes(project.slug)) return
+
         const formattedProject = {
           slug: project.slug,
           title: project.name,
           description: project.summary,
           icon: project.icon_url,
+          downloads: project.downloads,
         };
 
         if (project.project_types.includes('resourcepack')) {
