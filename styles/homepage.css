@@ -24,6 +24,7 @@ html, body {
 #cat-image {
   width: calc(70%);
   height: auto;
+  max-height: calc(90%);
   border-radius: 1.5rem;
   margin-top: auto;
 }
