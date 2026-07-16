@@ -65,6 +65,7 @@ function cat() {
         'willow1.jpg',
         'willow2.jpg',
         'willow3.jpg',
+        'willow4.jpg',
       ]
     }
   ];
