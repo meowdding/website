@@ -19,6 +19,7 @@ html, body {
   align-items: center;
   padding: 2em;
   gap: 1rem;
+  box-sizing: border-box;
 }
 
 #cat-image {

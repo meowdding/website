@@ -79,6 +79,13 @@ function cat() {
         'willow3.jpg',
         'willow4.jpg',
       ]
+    },
+    {
+      name: "Cosmo",
+      files: [
+        'cosmo.png',
+        'cosmo1.png',
+      ]
     }
   ];
 
