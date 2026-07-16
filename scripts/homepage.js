@@ -42,6 +42,12 @@ function cat() {
       ]
     },
     {
+      name: "Luise",
+      files: [
+        "luise.jpg"
+      ]
+    },
+    {
       name: "Moustache",
       files: [
         'moustache.jpg',
