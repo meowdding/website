@@ -50,9 +50,9 @@ function cat() {
       ]
     },
     {
-      name: "Not cookie (we dont know)",
+      name: "Penny",
       files: [
-        'not-cookie.jpg',
+        'penny.jpg',
       ]
     },
     {
