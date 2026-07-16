@@ -22,11 +22,10 @@ html, body {
 }
 
 #cat-image {
-  width: calc(70%);
-  height: auto;
-  max-height: calc(90%);
+  max-width: 70%;
+  flex: 1;
+  object-fit: contain;
   border-radius: 1.5rem;
-  margin-top: auto;
 }
 
 #rightColumn {
