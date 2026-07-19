@@ -1,60 +1,60 @@
 {
   "mods": [
     {
-      "slug": "skyocean",
-      "title": "SkyOcean",
-      "description": "A lightweight Hypixel SkyBlock QOL mod that aims to improve the experience without modifying too heavily",
-      "icon": "https://cdn.modrinth.com/data/dIczrQAR/bd1636744ec694027fb9eb512c2dd522b5ae7950.png",
-      "downloads": 1424050
-    },
-    {
-      "slug": "skyblock-custom-scoreboard",
-      "title": "Custom Scoreboard",
-      "description": "SkyHannis CustomScoreboard improved with more features for modern Hypixel SkyBlock",
-      "icon": "https://cdn.modrinth.com/data/fpb5uaJt/9b608fae2ffddf0f1b3db399f332fd2e7e65e6e5.png",
-      "downloads": 208576
+      "slug": "reward-claim",
+      "title": "Hypixel Reward Claim",
+      "description": "Hypixel reward claiming in-game.",
+      "icon": "https://cdn.modrinth.com/data/sbgVdyNC/dbe6d7f9623782ed7bfd566a0d76dd85c6d6ddec.png",
+      "downloads": 1419712
     },
     {
       "slug": "iconographic",
       "title": "Iconographic",
       "description": "Remodels your Hypixel SkyBlock Tooltip to look more fancy",
       "icon": "https://cdn.modrinth.com/data/jrPpQCNN/e35de348cf2d4e8a93772edc729c14f3f5c7980b.png",
-      "downloads": 186
-    },
-    {
-      "slug": "skyblock-rpc",
-      "title": "SkyBlock RPC",
-      "description": "A Discord integration for Hypixel SkyBlock",
-      "icon": "https://cdn.modrinth.com/data/qESHWJ0N/86af181c558b713f812819336c35a2df19024851_96.webp",
-      "downloads": 20339
-    },
-    {
-      "slug": "skyblock-profile-viewer",
-      "title": "SkyBlock Profile Viewer",
-      "description": "Modern Hypixel SkyBlock Profile Viewer",
-      "icon": "https://cdn.modrinth.com/data/8yqXwFLl/a8c52de10489db4c6fb92e77c23f561b950e55a1.png",
-      "downloads": 1608692
-    },
-    {
-      "slug": "skycubed",
-      "title": "SkyCubed",
-      "description": "SkyCubed is a Hypixel SkyBlock UI overhaul mod, changing all aspects of the UI in-game to be more inline into it looking like its own game",
-      "icon": "https://cdn.modrinth.com/data/znwUKvZc/02d15296d3860f74ecf5a224cce25792b0776f65.png",
-      "downloads": 98181
+      "downloads": 222
     },
     {
       "slug": "catharsis",
       "title": "Catharsis",
       "description": "A Resourcepack mod for Hypixel SkyBlock",
       "icon": "https://cdn.modrinth.com/data/fc4wBpRx/639b08a58c52c5b07cebe02e5126aaba34b53af1.png",
-      "downloads": 876693
+      "downloads": 889815
     },
     {
-      "slug": "reward-claim",
-      "title": "Hypixel Reward Claim",
-      "description": "Hypixel reward claiming in-game.",
-      "icon": "https://cdn.modrinth.com/data/sbgVdyNC/dbe6d7f9623782ed7bfd566a0d76dd85c6d6ddec.png",
-      "downloads": 1417671
+      "slug": "skyblock-profile-viewer",
+      "title": "SkyBlock Profile Viewer",
+      "description": "Modern Hypixel SkyBlock Profile Viewer",
+      "icon": "https://cdn.modrinth.com/data/8yqXwFLl/a8c52de10489db4c6fb92e77c23f561b950e55a1.png",
+      "downloads": 1621222
+    },
+    {
+      "slug": "skyocean",
+      "title": "SkyOcean",
+      "description": "A lightweight Hypixel SkyBlock QOL mod that aims to improve the experience without modifying too heavily",
+      "icon": "https://cdn.modrinth.com/data/dIczrQAR/bd1636744ec694027fb9eb512c2dd522b5ae7950.png",
+      "downloads": 1436304
+    },
+    {
+      "slug": "skycubed",
+      "title": "SkyCubed",
+      "description": "SkyCubed is a Hypixel SkyBlock UI overhaul mod, changing all aspects of the UI in-game to be more inline into it looking like its own game",
+      "icon": "https://cdn.modrinth.com/data/znwUKvZc/02d15296d3860f74ecf5a224cce25792b0776f65.png",
+      "downloads": 98703
+    },
+    {
+      "slug": "skyblock-rpc",
+      "title": "SkyBlock RPC",
+      "description": "A Discord integration for Hypixel SkyBlock",
+      "icon": "https://cdn.modrinth.com/data/qESHWJ0N/86af181c558b713f812819336c35a2df19024851_96.webp",
+      "downloads": 20358
+    },
+    {
+      "slug": "skyblock-custom-scoreboard",
+      "title": "Custom Scoreboard",
+      "description": "SkyHannis CustomScoreboard improved with more features for modern Hypixel SkyBlock",
+      "icon": "https://cdn.modrinth.com/data/fpb5uaJt/9b608fae2ffddf0f1b3db399f332fd2e7e65e6e5.png",
+      "downloads": 211388
     }
   ],
   "texturepacks": [
@@ -63,35 +63,35 @@
       "title": "Darkmode Mist",
       "description": "Changes the mist on hypixel skyblock to be in darkmode.",
       "icon": "https://cdn.modrinth.com/data/RQA53jEb/30fa4e334dece5348910dfbd5dc0877905f4cd68.png",
-      "downloads": 7254
-    },
-    {
-      "slug": "deep-hollows",
-      "title": "Deep Hollows",
-      "description": "Changes the stone textures in the crystall hollows on hypixel skyblock to deepslate",
-      "icon": "https://cdn.modrinth.com/data/X6M6iMYr/1fd8b9a3edaeb8891570a65886b128baefff0dad.png",
-      "downloads": 4542
-    },
-    {
-      "slug": "eureka-pack",
-      "title": "Eureka",
-      "description": "A Minecraft Resource pack for Hypixel Skyblock with a strong focus on innovation.",
-      "icon": "https://cdn.modrinth.com/data/AqwmOGrS/662203f34026cfb216311331db9e365ed4add4de.png",
-      "downloads": 770
-    },
-    {
-      "slug": "fancy-panes",
-      "title": "Hypixel SkyBlock Fancy Panes",
-      "description": "NotEnoughUpdates' Fancy Panes in Modern Hypixel SkyBlock",
-      "icon": "https://cdn.modrinth.com/data/kBgkqWrj/49264eb89b381d07da5e6d6a474951a2f48630da.png",
-      "downloads": 119
+      "downloads": 7263
     },
     {
       "slug": "overgrown-tunnels",
       "title": "Overgrown Tunnels",
       "description": "Makes the glacite tunnels overgrown instead of frozen.",
       "icon": "https://cdn.modrinth.com/data/8oSbGXIQ/95c5eae916cd08f9b13c97e89cfd3d6a2486764f.png",
-      "downloads": 4597
+      "downloads": 4606
+    },
+    {
+      "slug": "eureka-pack",
+      "title": "Eureka",
+      "description": "A Minecraft Resource pack for Hypixel Skyblock with a strong focus on innovation.",
+      "icon": "https://cdn.modrinth.com/data/AqwmOGrS/662203f34026cfb216311331db9e365ed4add4de.png",
+      "downloads": 777
+    },
+    {
+      "slug": "fancy-panes",
+      "title": "Hypixel SkyBlock Fancy Panes",
+      "description": "NotEnoughUpdates' Fancy Panes in Modern Hypixel SkyBlock",
+      "icon": "https://cdn.modrinth.com/data/kBgkqWrj/49264eb89b381d07da5e6d6a474951a2f48630da.png",
+      "downloads": 120
+    },
+    {
+      "slug": "deep-hollows",
+      "title": "Deep Hollows",
+      "description": "Changes the stone textures in the crystall hollows on hypixel skyblock to deepslate",
+      "icon": "https://cdn.modrinth.com/data/X6M6iMYr/1fd8b9a3edaeb8891570a65886b128baefff0dad.png",
+      "downloads": 4548
     }
   ]
 }
