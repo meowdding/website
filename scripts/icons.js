@@ -131,7 +131,7 @@ async function run() {
 
     const result = await response.json();
 
-    const things = result[0].providers.map(it => ({
+    const things = result.providers.map(it => ({
       file: baseImage + it.file.slice(17),
       name: it.file.slice(17).replace('.png', '').toUpperCase(),
       chars: it.chars
