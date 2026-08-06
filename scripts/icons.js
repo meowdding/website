@@ -96,6 +96,7 @@ const HARDCODED_NAMES = {
   "\\ue084": "Undead",
   "\\ue085": "Wither",
   "\\ue086": "Woodland",
+  "\\ue087": "Critter",
 
   // STAFF ICONS
   "\\u12de": "Hypixel Admins"
