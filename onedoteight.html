@@ -16,6 +16,7 @@
   <h1 class="heading">1.8 Death Day</h1>
   <div id="container" class="container">
     <p id="description"></p>
+    <p id="pv-189"></p>
   </div>
   <div class="footer">
     <a href="https://github.com/meowdding/website" class="secondary">
@@ -29,7 +30,9 @@
 </body>
 <script>
   const el = document.getElementById("description");
+  const pv = document.getElementById("pv-189");
   const deathDate = new Date("2026-02-24T13:00:00Z");
+  const pvDate = new Date("2026-08-07T20:29:00Z");
 
   function updateText() {
     const now = new Date();
@@ -40,6 +43,8 @@
     } else {
       el.textContent = `1.8 will die in ${getTime(diff)}.`;
     }
+
+    pv.textCount = `Pv 1.8.9 was release ${getTime(now - pvDate)} ago`
   }
 
   function getTime(diff) {
