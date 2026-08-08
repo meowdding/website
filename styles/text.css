@@ -1,0 +1,39 @@
+#input {
+  resize: none;
+  margin: 0px;
+  margin-top: 10px;
+  border-radius: 0 0 1.5rem 1.5rem;
+  min-width: 50rem;
+  min-height: 20rem;
+  max-width: 20rem;
+  border-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 1.5rem;
+  gap: 0px;
+}
+
+#input div {
+  width: 100%;
+}
+
+#formatting-buttons {
+  display: flex;
+  width: inherit;
+  justify-content: center;
+}
+
+.content-box {
+  margin-top: auto;
+  background-color: var(--header);
+  border-radius: 1.5rem;
+  border-color: rgb(from var(--primary) calc(r * 0.3) calc(g * 0.3) calc(b * 0.3));
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 50%;
+}
