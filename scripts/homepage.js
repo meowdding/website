@@ -86,6 +86,20 @@ function cat() {
         'cosmo.png',
         'cosmo1.png',
       ]
+    },
+    {
+      name: "Garfield",
+      files: [
+        'garfield0.jpg',
+        'garfield1.jpg',
+        'garfield2.jpg',
+        'garfield3.jpg',
+        'garfield4.jpg',
+        'garfield5.jpg',
+        'garfield6.jpg',
+        'garfield7.jpg',
+        'garfield8.jpg'
+      ]
     }
   ];
 
