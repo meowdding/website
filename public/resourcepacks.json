@@ -329,7 +329,7 @@
     "description": "A resource pack that replaces Critter Capsules with custom Pokeball style models on Hypixel Skyblock.",
     "icon": "https://cdn.modrinth.com/data/37JWejQF/636de42d055e2fae6e8ec0fe1299d7da4d2b1ecf_96.webp",
     "latest_version": "tKG7MEq2",
-    "downloads": 33,
+    "downloads": 37,
     "organization": null,
     "organization_id": null,
     "author": "CesurRhino",
@@ -346,5 +346,17 @@
     "organization_id": null,
     "author": "Tacollab09",
     "author_id": "gpMIPf7r"
+  },
+  "juqKPG2V": {
+    "slug": "winter-torrhus",
+    "title": "Winter Wonderland Torrhus Canyon",
+    "description": "Transforms the Torrhus Canyon into a winter wonderland. Requires Catharsis.",
+    "icon": "https://cdn.modrinth.com/data/juqKPG2V/44cb585f85c866af991adbfeb772be8d0561d3a1_96.webp",
+    "latest_version": "E2KcN2OP",
+    "downloads": 4,
+    "organization": null,
+    "organization_id": null,
+    "author": "miaunderstars",
+    "author_id": "SPAHvBha"
   }
 }
