@@ -46,6 +46,7 @@ const HARDCODED_NAMES = {
   "\\ue02b": "Overbloom",
   "\\ue02c": "Crit Chance",
   "\\ue02d": "Pull",
+  "\\ue02e": "Timber",
 
   // SKILLS
   "\\ue050": "Combat",
@@ -97,6 +98,7 @@ const HARDCODED_NAMES = {
   "\\ue085": "Wither",
   "\\ue086": "Woodland",
   "\\ue087": "Critter",
+  "\\ue088": "Timid",
 
   // STAFF ICONS
   "\\u12de": "Hypixel Admins"
