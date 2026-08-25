@@ -1,134 +1,138 @@
 const HARDCODED_NAMES = {
   // STATS
-  "\\ue000": "(Unsure)",
-  "\\ue001": "Attack Speed",
-  "\\ue002": "Ability Damage",
-  "\\ue003": "Intelligence / Mana",
-  "\\ue004": "Rift Mana Regen",
-  "\\ue005": "Breaking Power",
-  "\\ue006": "Cold / Cold Resistance",
-  "\\ue007": "Crit Damage",
-  "\\ue008": "Defense",
-  "\\ue009": "Double Hook Chance",
-  "\\ue00a": "Fear",
-  "\\ue00b": "Ferocity",
-  "\\ue00c": "Fishing Speed",
-  "\\ue00d": "Strength",
-  "\\ue00e": "Machine Fuel",
-  "\\ue00f": "Gemstone Spread",
-  "\\ue010": "Health",
-  "\\ue011": "Health Regen",
-  "\\ue012": "Heat / Heat Resistance",
-  "\\ue013": "Pet Luck",
-  "\\ue014": "Mending",
-  "\\ue015": "Mining Speed",
-  "\\ue016": "Mining Spread",
-  "\\ue017": "Overflow Mana",
-  "\\ue018": "Pest",
-  "\\ue019": "Bonus Pest Chance",
-  "\\ue01a": "Magic Find",
-  "\\ue01b": "Pressure Resistance",
-  "\\ue01c": "Pristine",
-  "\\ue01d": "Respiration",
-  "\\ue01e": "Rift Damage",
-  "\\ue01f": "Rift Health",
-  "\\ue020": "Rift Time",
-  "\\ue021": "Sea Creature Chance",
-  "\\ue022": "Speed",
-  "\\ue023": "Sweep",
-  "\\ue024": "Swing Range",
-  "\\ue025": "Treasure Chance",
-  "\\ue026": "(Unsure)",
-  "\\ue027": "True Defense",
-  "\\ue028": "Vitality",
-  "\\ue029": "(Unsure)",
-  "\\ue02a": "Trophy Chance",
-  "\\ue02b": "Overbloom",
-  "\\ue02c": "Crit Chance",
-  "\\ue02d": "Pull",
-  "\\ue02e": "Timber",
+  '\\ue000': '(Unsure)',
+  '\\ue001': 'Attack Speed',
+  '\\ue002': 'Ability Damage',
+  '\\ue003': 'Intelligence / Mana',
+  '\\ue004': 'Rift Mana Regen',
+  '\\ue005': 'Breaking Power',
+  '\\ue006': 'Cold / Cold Resistance',
+  '\\ue007': 'Crit Damage',
+  '\\ue008': 'Defense',
+  '\\ue009': 'Double Hook Chance',
+  '\\ue00a': 'Fear',
+  '\\ue00b': 'Ferocity',
+  '\\ue00c': 'Fishing Speed',
+  '\\ue00d': 'Strength',
+  '\\ue00e': 'Machine Fuel',
+  '\\ue00f': 'Gemstone Spread',
+  '\\ue010': 'Health',
+  '\\ue011': 'Health Regen',
+  '\\ue012': 'Heat / Heat Resistance',
+  '\\ue013': 'Pet Luck',
+  '\\ue014': 'Mending',
+  '\\ue015': 'Mining Speed',
+  '\\ue016': 'Mining Spread',
+  '\\ue017': 'Overflow Mana',
+  '\\ue018': 'Pest',
+  '\\ue019': 'Bonus Pest Chance',
+  '\\ue01a': 'Magic Find',
+  '\\ue01b': 'Pressure Resistance',
+  '\\ue01c': 'Pristine',
+  '\\ue01d': 'Respiration',
+  '\\ue01e': 'Rift Damage',
+  '\\ue01f': 'Rift Health',
+  '\\ue020': 'Rift Time',
+  '\\ue021': 'Sea Creature Chance',
+  '\\ue022': 'Speed',
+  '\\ue023': 'Sweep',
+  '\\ue024': 'Swing Range',
+  '\\ue025': 'Treasure Chance',
+  '\\ue026': '(Unsure)',
+  '\\ue027': 'True Defense',
+  '\\ue028': 'Vitality',
+  '\\ue029': '(Unsure)',
+  '\\ue02a': 'Trophy Chance',
+  '\\ue02b': 'Overbloom',
+  '\\ue02c': 'Crit Chance',
+  '\\ue02d': 'Pull',
+  '\\ue02e': 'Timber',
 
   // SKILLS
-  "\\ue050": "Combat",
-  "\\ue051": "Farming",
-  "\\ue052": "Fishing",
-  "\\ue053": "Mining",
-  "\\ue054": "Foraging",
-  "\\ue055": "Enchanting",
-  "\\ue056": "Alchemy",
-  "\\ue057": "Carpentry",
-  "\\ue058": "Runecrafting",
-  "\\ue059": "Taming",
-  "\\ue05a": "Social",
-  "\\ue05b": "Hunting",
+  '\\ue050': 'Combat',
+  '\\ue051': 'Farming',
+  '\\ue052': 'Fishing',
+  '\\ue053': 'Mining',
+  '\\ue054': 'Foraging',
+  '\\ue055': 'Enchanting',
+  '\\ue056': 'Alchemy',
+  '\\ue057': 'Carpentry',
+  '\\ue058': 'Runecrafting',
+  '\\ue059': 'Taming',
+  '\\ue05a': 'Social',
+  '\\ue05b': 'Hunting',
 
   // ICONS
-  "\\ue060": "Left Arrow (Interpreted)",
-  "\\ue061": "Right Arrow (Interpreted)",
-  "\\ue062": "Up Arrow (Interpreted)",
-  "\\ue063": "Down Arrow (Interpreted)",
-  "\\u2714": "Checkmark (Interpreted)",
-  "\\u2716": "X (Interpreted)",
-  "\\ue066": "Lock (Interpreted)",
-  "\\ue067": "Location",
-  "\\ue068": "Fragged Item",
+  '\\ue060': 'Left Arrow (Interpreted)',
+  '\\ue061': 'Right Arrow (Interpreted)',
+  '\\ue062': 'Up Arrow (Interpreted)',
+  '\\ue063': 'Down Arrow (Interpreted)',
+  '\\u2714': 'Checkmark (Interpreted)',
+  '\\u2716': 'X (Interpreted)',
+  '\\ue066': 'Lock (Interpreted)',
+  '\\ue067': 'Location',
+  '\\ue068': 'Fragged Item',
 
   // MOBS
-  "\\ue070": "Airborne",
-  "\\ue071": "Animal",
-  "\\ue072": "Aquatic",
-  "\\ue073": "Arcane",
-  "\\ue074": "Arthropod",
-  "\\ue075": "Construct",
-  "\\ue076": "Cubic",
-  "\\ue077": "Elusive",
-  "\\ue078": "Ender",
-  "\\ue079": "Frozen",
-  "\\ue07a": "Glacial",
-  "\\ue07b": "Humanoid",
-  "\\ue07c": "Infernal",
-  "\\ue07d": "Magmatic",
-  "\\ue07e": "Mythological",
-  "\\ue07f": "Pest",
-  "\\ue080": "Shielded",
-  "\\ue081": "Skeletal",
-  "\\ue082": "Spooky",
-  "\\ue083": "Subterranean",
-  "\\ue084": "Undead",
-  "\\ue085": "Wither",
-  "\\ue086": "Woodland",
-  "\\ue087": "Critter",
-  "\\ue088": "Timid",
+  '\\ue070': 'Airborne',
+  '\\ue071': 'Animal',
+  '\\ue072': 'Aquatic',
+  '\\ue073': 'Arcane',
+  '\\ue074': 'Arthropod',
+  '\\ue075': 'Construct',
+  '\\ue076': 'Cubic',
+  '\\ue077': 'Elusive',
+  '\\ue078': 'Ender',
+  '\\ue079': 'Frozen',
+  '\\ue07a': 'Glacial',
+  '\\ue07b': 'Humanoid',
+  '\\ue07c': 'Infernal',
+  '\\ue07d': 'Magmatic',
+  '\\ue07e': 'Mythological',
+  '\\ue07f': 'Pest',
+  '\\ue080': 'Shielded',
+  '\\ue081': 'Skeletal',
+  '\\ue082': 'Spooky',
+  '\\ue083': 'Subterranean',
+  '\\ue084': 'Undead',
+  '\\ue085': 'Wither',
+  '\\ue086': 'Woodland',
+  '\\ue087': 'Critter',
+  '\\ue088': 'Timid',
 
   // STAFF ICONS
-  "\\u12de": "Hypixel Admins"
+  '\\u12de': 'Hypixel Admins'
 };
 
 async function copyToClipboard(text, button) {
   try {
     await navigator.clipboard.writeText(text);
     const originalText = button.innerText;
-    button.innerText = "Copied!";
-    button.classList.add("success");
+    button.innerText = 'Copied!';
+    button.classList.add('success');
 
     setTimeout(() => {
       button.innerText = originalText;
-      button.classList.remove("success");
+      button.classList.remove('success');
     }, 1500);
   } catch (err) {
     console.error(err);
   }
 }
 
-async function run() {
-  const fontUrl = "https://raw.githubusercontent.com/meowdding/hypixel-pack/refs/heads/26.2/assets/minecraft/font/default.json";
-  const baseImage = "https://raw.githubusercontent.com/meowdding/hypixel-pack/refs/heads/26.2/assets/hypixel_skyblock/textures/";
-  const container = document.getElementById("container");
+async function run(isAlpha = false) {
+  const version = '26.2';
+  const branch = isAlpha ? `alpha/${version}` : version;
+  const fontUrl = `https://raw.githubusercontent.com/meowdding/hypixel-pack/refs/heads/${branch}/assets/minecraft/font/default.json`;
+  const baseImage = `https://raw.githubusercontent.com/meowdding/hypixel-pack/refs/heads/${branch}/assets/hypixel_skyblock/textures/`;
+  const container = document.getElementById('container');
+
+  container.innerHTML = '';
 
   try {
     const response = await fetch(fontUrl);
     if (!response.ok) {
-      document.getElementById("failure").innerText = `Response status: ${response.status}`;
+      document.getElementById('failure').innerText = `Response status: ${response.status}`;
       return;
     }
 
@@ -144,16 +148,16 @@ async function run() {
       const rows = provider.chars.length;
       const maxCols = Math.max(...provider.chars.map(row => Array.from(row).length));
 
-      const details = document.createElement("details");
-      details.className = "category";
+      const details = document.createElement('details');
+      details.className = 'category';
 
-      const name = document.createElement("summary");
-      name.className = "category-name";
+      const name = document.createElement('summary');
+      name.className = 'category-name';
       name.innerText = provider.name;
       details.appendChild(name);
 
-      const grid = document.createElement("div");
-      grid.className = "grid";
+      const grid = document.createElement('div');
+      grid.className = 'grid';
 
       provider.chars.forEach((rowStr, y) => {
         const rowChars = Array.from(rowStr);
@@ -166,7 +170,7 @@ async function run() {
             ? `\\U${codePoint.padStart(8, '0')}`
             : `\\u${codePoint.padStart(4, '0')}`;
 
-          const displayName = HARDCODED_NAMES[escapedChar] || "Unknown Icon";
+          const displayName = HARDCODED_NAMES[escapedChar] || 'Unknown Icon';
 
           const bgPosX = maxCols > 1 ? (x / (maxCols - 1)) * 100 : 0;
           const bgPosY = rows > 1 ? (y / (rows - 1)) * 100 : 0;
@@ -174,12 +178,12 @@ async function run() {
           const bgSizeX = maxCols * 100;
           const bgSizeY = rows * 100;
 
-          const card = document.createElement("div");
-          card.className = "card";
+          const card = document.createElement('div');
+          card.className = 'card';
 
           card.innerHTML = `
               <div class="preview" style="
-                background-image: url('${provider.file}');
+                background-image: url("${provider.file}");
                 background-size: ${bgSizeX}% ${bgSizeY}%;
                 background-position: ${bgPosX}% ${bgPosY}%;
               "></div>
@@ -191,11 +195,11 @@ async function run() {
               </div>
             `;
 
-          card.querySelector('.copy-raw').addEventListener('click', function () {
+          card.querySelector('.copy-raw').addEventListener('click', function() {
             copyToClipboard(char, this);
           });
 
-          card.querySelector('.copy-escaped').addEventListener('click', function () {
+          card.querySelector('.copy-escaped').addEventListener('click', function() {
             copyToClipboard(escapedChar, this);
           });
 
@@ -208,6 +212,6 @@ async function run() {
     });
 
   } catch (error) {
-    document.getElementById("failure").innerText = error.message;
+    document.getElementById('failure').innerText = error.message;
   }
 }
