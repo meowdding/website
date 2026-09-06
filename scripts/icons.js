@@ -183,7 +183,7 @@ async function run(isAlpha = false) {
 
           card.innerHTML = `
               <div class="preview" style="
-                background-image: url("${provider.file}");
+                background-image: url('${provider.file}');
                 background-size: ${bgSizeX}% ${bgSizeY}%;
                 background-position: ${bgPosX}% ${bgPosY}%;
               "></div>
