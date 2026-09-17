@@ -96,3 +96,17 @@
   background: var(--accent);
   border-color: var(--accent);
 }
+
+@media (width <= 550px) {
+  body {
+    font-size: 12px;
+  }
+
+  .content {
+    scrollbar-gutter: stable;
+  }
+
+  .header {
+    font-size: 15px;
+  }
+}
