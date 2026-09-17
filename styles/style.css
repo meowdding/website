@@ -187,3 +187,9 @@ p.secondary {
   margin-bottom: 12px;
   gap: 12px
 }
+
+@media (width <= 850px) {
+  .center {
+    max-width: 80%;
+  }
+}
