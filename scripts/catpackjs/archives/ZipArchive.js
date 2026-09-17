@@ -124,7 +124,7 @@ export class ZipArchive extends Archive {
       zipFileLength += lfh.length;
       parts.push(compressedContent);
       zipFileLength += compressedContent.length;
-      const centralDirectoryFileHeader = new CentralDirectoryFileHeader(ZipArchive.EXTRACT_VERSION, ZipArchive.EXTRACT_VERSION, bitFlag, compressedWith === 'deflate' ? 8 : 0, 24899, 25963, crc, compressedContent.length, fileContent.length, 0, 0, 0, lfhIndex, fileName, ReadableBuffer.allocate(0), ReadableBuffer.allocate(0)).buffer();
+      const centralDirectoryFileHeader = new CentralDirectoryFileHeader(ZipArchive.EXTRACT_VERSION, ZipArchive.EXTRACT_VERSION, bitFlag, compressedWith === 'deflate' ? 8 : 0, 25965, 30575, crc, compressedContent.length, fileContent.length, 0, 0, 0, lfhIndex, fileName, ReadableBuffer.allocate(0), ReadableBuffer.allocate(0)).buffer();
       centralDirectories.push(centralDirectoryFileHeader);
     }
     const centralDirectoryStart = zipFileLength;
