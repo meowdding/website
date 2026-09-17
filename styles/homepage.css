@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .content {
@@ -99,4 +99,26 @@ html, body {
 .card-description {
   font-size: 0.9rem;
   opacity: 0.8;
+}
+
+@media (width <= 700px) {
+  body {
+    height: auto;
+    min-height: 100dvh;
+
+    font-size: 12px;
+  }
+
+  .header {
+    font-size: 15px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  #cat-image {
+    height: 350px;
+    width: auto;
+  }
 }
