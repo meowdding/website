@@ -135,13 +135,7 @@ body {
 
   overflow-x: hidden;
 
-  background-image: url("data:image/svg+xml;utf8,\
-    <svg xmlns='http://www.w3.org/2000/svg' height='100px' width='100px'>\
-      <text x='0' y='19' opacity='20%' font-size='20'>🐈</text>\
-      <text x='50' y='19' opacity='20%' font-size='20'>🥺</text>\
-      <text x='50' y='69' opacity='20%' font-size='20'>🐈</text>\
-      <text x='0' y='69' opacity='20%' font-size='20'>🥺</text>\
-    </svg>");
+  background-image: url("../public/svgs/catpack-bg.svg");
   animation: background-slide 2s linear 0s infinite paused;
 }
 
@@ -194,4 +188,16 @@ body {
   background-color: #202020;
   padding: 2px 5px;
   user-select: text;
+}
+
+@media (width <= 810px) {
+  .heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
