@@ -40,6 +40,9 @@ function fetchAll() {
           projects.mods.push(formattedProject);
         }
       });
+
+      projects.mods.sort((a, b) => b.downloads - a.downloads)
+      projects.texturepacks.sort((a, b) => b.downloads - a.downloads)
     });
 }
 
