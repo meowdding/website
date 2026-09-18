@@ -44,10 +44,8 @@ async function timeout(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function run() {
+export async function updatePacks() {
   await fetchAll(0, 101);
 
   fs.writeFileSync('./public/resourcepacks.json', JSON.stringify(projects, null, 2));
 }
-
-run();
