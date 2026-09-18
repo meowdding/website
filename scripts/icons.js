@@ -215,3 +215,43 @@ async function run(isAlpha = false) {
     document.getElementById('failure').innerText = error.message;
   }
 }
+
+document.addEventListener('keydown', (e) => {
+  if ((e.ctrlKey && e.key === 'f') || e.key === 'F3') {
+    e.preventDefault();
+    const searchInput = document.getElementById('searchInput');
+    searchInput.focus();
+    searchInput.select();
+  }
+});
+
+document.getElementById('searchInput').addEventListener('input', (e) => {
+  const query = e.target.value.toLowerCase();
+  const categories = document.querySelectorAll('.category');
+
+  categories.forEach(category => {
+    const cards = category.querySelectorAll('.card');
+    let hasVisibleCard = false;
+
+    cards.forEach(card => {
+      const name = card.querySelector('.icon-name').innerText.toLowerCase();
+      const char = card.querySelector('.icon-char').innerText.toLowerCase();
+
+      if (name.includes(query) || char.includes(query)) {
+        card.style.display = 'flex';
+        hasVisibleCard = true;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    if (query !== '') {
+      category.style.display = hasVisibleCard ? 'block' : 'none';
+      if (hasVisibleCard) {
+        category.open = true;
+      }
+    } else {
+      category.style.display = 'block';
+    }
+  });
+});
