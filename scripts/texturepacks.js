@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   getPacks().then(packs => {
     Object.values(packs).forEach(pack => {
+      if (pack.hasAiDisclosure) return
+
       const packElement = document.createElement("a");
       packElement.href = `https://modrinth.com/resourcepack/${pack.slug}`;
       packElement.target = "_blank";

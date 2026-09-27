@@ -2,6 +2,8 @@ import fs from 'fs';
 
 const projects = {};
 
+const aiDisclosures = ["ai_content", "ai_content_assets", "ai_content_text"]
+
 function fetchAll(start, max) {
   console.log('Fetching ' + start + ' / ' + max);
   return fetch('https://api.modrinth.com/v3/search?facets=[[%22project_types:resourcepack%22],[%22dependency_project_ids:fc4wBpRx%22]]&limit=100&offset=' + start, {
@@ -29,6 +31,7 @@ function fetchAll(start, max) {
           organization_id: project.organization_id,
           author: project.author,
           author_id: project.author_id,
+          hasAiDisclosure: aiDisclosures.some(it => project.disclosure_types.includes(it)) ? true : undefined
         };
       });
       return data;
@@ -48,4 +51,5 @@ export async function updatePacks() {
   await fetchAll(0, 101);
 
   fs.writeFileSync('./public/resourcepacks.json', JSON.stringify(projects, null, 2));
+  //fs.writeFileSync('../../public/resourcepacks.json', JSON.stringify(projects, null, 2));
 }

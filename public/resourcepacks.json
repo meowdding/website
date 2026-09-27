@@ -321,7 +321,8 @@
     "organization": null,
     "organization_id": null,
     "author": "BenM",
-    "author_id": "NX50u5Ip"
+    "author_id": "NX50u5Ip",
+    "hasAiDisclosure": true
   },
   "ReSTaHB5": {
     "slug": "sbrp",
@@ -381,7 +382,8 @@
     "organization": null,
     "organization_id": null,
     "author": "lootingfive",
-    "author_id": "ViUqqb2f"
+    "author_id": "ViUqqb2f",
+    "hasAiDisclosure": true
   },
   "wr3dBURT": {
     "slug": "hypixel-skyblock-topaz-broach-over-necromancers-broach",

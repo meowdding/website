@@ -50,4 +50,5 @@ export async function updateMods() {
   await fetchAll();
 
   fs.writeFileSync('./public/projects.json', JSON.stringify(projects, null, 2));
+  //fs.writeFileSync('../../public/projects.json', JSON.stringify(projects, null, 2));
 }
