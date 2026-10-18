@@ -101,7 +101,27 @@ const HARDCODED_NAMES = {
   '\\ue088': 'Timid',
 
   // STAFF ICONS
-  '\\u12de': 'Hypixel Admins'
+  '\\u12de': 'Hypixel Admins',
+
+  // Weather
+  '\\ue090': 'Acid Rain',
+  '\\ue091': 'Ashfall',
+  '\\ue092': 'Blizzard',
+  '\\ue093': 'Blossoming',
+  '\\ue094': 'Breeze',
+  '\\ue095': 'Voidstorm',
+  '\\ue096': 'Wispfall',
+  '\\ue097': 'Hellstorm',
+  '\\ue098': 'Mist',
+  '\\ue099': 'Moonfall',
+  '\\ue09a': 'Rain',
+  '\\ue09b': 'Blooming',
+  '\\ue09c': 'Rockfall',
+  '\\ue09d': 'Smog',
+  '\\ue09e': 'Snowstorm',
+  '\\ue09f': '(Unsure)',
+  '\\ue100': 'Thunderstorm',
+  '\\ue101': 'Tropical Rain',
 };
 
 async function copyToClipboard(text, button) {
