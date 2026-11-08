@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    if: ${{ github.repository_id == '987617459' }}
     steps:
       - name: Git checkout
         uses: actions/checkout@v4
